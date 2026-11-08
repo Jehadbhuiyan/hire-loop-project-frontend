@@ -35,16 +35,16 @@ export default function Hero() {
 
       {/* Badge */}
       <div className="flex w-full items-center justify-center gap-2 sm:gap-3">
-        <span className="h-px w-6 bg-gradient-to-r from-transparent to-white/25 sm:w-24 md:w-40" />
+        <span className="h-px w-6 bg-linear-to-r from-transparent to-white/25 sm:w-24 md:w-40" />
 
-        <div className="flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.06] px-2.5 py-1.5 font-mono text-[10px] uppercase tracking-wide text-white/50 sm:gap-2 sm:px-3 sm:text-xs">
+        <div className="flex items-center gap-1.5 rounded-full border border-white/10 bg-white/6 px-2.5 py-1.5 font-mono text-[10px] uppercase tracking-wide text-white/50 sm:gap-2 sm:px-3 sm:text-xs">
           <span aria-hidden="true">🧰</span>
           <span>
             <b className="font-bold text-white">50,000+</b> new jobs this month
           </span>
         </div>
 
-        <span className="h-px w-6 bg-gradient-to-l from-transparent to-white/25 sm:w-24 md:w-40" />
+        <span className="h-px w-6 bg-linear-to-l from-transparent to-white/25 sm:w-24 md:w-40" />
       </div>
 
       {/* Heading */}

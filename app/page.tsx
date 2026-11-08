@@ -1,5 +1,5 @@
-import Hero from "@/components/Hero"
-import { Button } from "@/components/ui/button"
+import Hero from "./home-page/HeroSection";
+
 
 export default function Page() {
   return (
